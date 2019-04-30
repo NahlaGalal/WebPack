@@ -1,3 +1,4 @@
+<div dir="rtl"> انه </div>
 ال webpack عبارة عن Module bundler يستخدم مع تطبيقات الـ Javascript الحديثة و javascript frameworks مثل React.Js, Angular, Vue.js
 حيث كانت الطريقة الشائعة في استدعاء اكثر من ملف javascript ان نستدعيهم واحدا تلو الآخر داخل `<script>` ويجب أن نراعي ترتيب الملفات و نراعي عدم حدوث تعارض بين المتغيرات في كل الملفات
 لهذا ظهر ال webpack حيث يقوم بانشاء ما يسمى ب dependency graph التي تتكون من modules عبارة عن ملفات javascript و css و ملفات الخطوط و الصور و يتم تجميعهم في ملف يسمى bundle.js حيث يتم استدعاؤه في ملف ال html 
