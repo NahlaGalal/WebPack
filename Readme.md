@@ -1,4 +1,4 @@
-﻿<div dir="rtl">
+<div dir="rtl">
 ال webpack عبارة عن Module bundler يستخدم مع تطبيقات الـ Javascript الحديثة و javascript frameworks مثل React.Js, Angular, Vue.js
 حيث كانت الطريقة الشائعة في استدعاء اكثر من ملف javascript ان نستدعيهم واحدا تلو الآخر داخل `/<script/>` ويجب أن نراعي ترتيب الملفات و نراعي عدم حدوث تعارض بين المتغيرات في كل الملفات
 
@@ -22,6 +22,7 @@ module.exports = {
 <div dir="rtl">
 ثالثا نقوم بتحديد ال loaders حيث تسمح بتحويل جميع الملفات إلى ملفات javascript و تسمح باستدعاء ملفات الصور و ملفات css في javascript ففي هذا المثال
 </div>
+
 ```
 module: {
 	rules: [
@@ -31,6 +32,7 @@ module: {
 }
 ```
 <div dir="rtl">
+
 يقوم بتحويل أوامر ال es6 إلى es5 و يقوم بالسماح باستدعاء ملفات ال css داخل الـ javascript
 حيث تحتوى ال rules على objects تتكون من:
 1)	 test: يتكون من regular expression لتحديد نوع الملفات 
