@@ -1,0 +1,28 @@
+{
+  "name": "webpack-installation",
+  "version": "1.0.0",
+  "description": "Intro to WebPack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "div": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahlaGalal/WebPack.git"
+  },
+  "author": "Nahla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahlaGalal/WebPack/issues"
+  },
+  "homepage": "https://github.com/NahlaGalal/WebPack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {}
+}
